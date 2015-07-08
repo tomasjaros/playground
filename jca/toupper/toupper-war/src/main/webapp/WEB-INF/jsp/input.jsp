@@ -10,7 +10,7 @@
     <body>
         <h1>Input Form</h1>
         <form method="POST">
-            <input type="text" name="input" /><br />
+            Text: <input type="text" name="input" /><br />
             <input type="submit" value="Odeslat" />
         </form>
 

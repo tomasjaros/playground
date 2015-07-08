@@ -20,15 +20,18 @@ public class MainController {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    private ToUpperConnectionFactory connectionFactory;
+    private static final String CF_JNDI_NAME = "java:comp/env/eis/toupper-host";
+
+    private ToUpperConnectionFactory connectionFactory = null;
 
     private ToUpperConnectionFactory getConnectionFactory() {
         if (connectionFactory == null) {
             try {
+                logger.info("Looking up connection factory with JNDI name '" + CF_JNDI_NAME);
                 Context ic = new InitialContext();
-                Object factoryObj = ic.lookup("eis/toupper-host");
-                logger.info("=== factoryObj: " + factoryObj);
-                connectionFactory = (ToUpperConnectionFactory) factoryObj;
+                Object factoryObj = ic.lookup(CF_JNDI_NAME);
+                logger.info("Looked up connection factory: " + factoryObj);
+                this.connectionFactory = (ToUpperConnectionFactory) factoryObj;
             } catch (NamingException e) {
                 throw new IllegalStateException("Can not lookup connection factory from JNDI registry.", e);
             }

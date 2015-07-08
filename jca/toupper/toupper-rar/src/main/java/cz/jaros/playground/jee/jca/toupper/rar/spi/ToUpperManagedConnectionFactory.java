@@ -50,4 +50,36 @@ public class ToUpperManagedConnectionFactory extends AbstractManagedConnectionFa
         this.port = port;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        ToUpperManagedConnectionFactory that = (ToUpperManagedConnectionFactory) obj;
+        if (host == null) {
+            if (that.host != null) {
+                return false;
+            }
+        } else if (!host.equals(that.host)) {
+            return false;
+        }
+        if (port == null) {
+            if (that.port != null) {
+                return false;
+            }
+        } else if (!port.equals(that.port)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return (host == null ? 0 : host.hashCode())
+                + 17 * (port == null ? 0 : port.hashCode());
+    }
+
 }

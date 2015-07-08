@@ -31,6 +31,7 @@
         <res-type>cz.jaros.playground.jee.jca.toupper.api.ToUpperConnectionFactory</res-type>
         <res-auth>Container</res-auth>
         <res-sharing-scope>Shareable</res-sharing-scope>
+        <mapped-name>java:/eis/toupper-tcp-host</mapped-name>
     </resource-ref>
 
 </web-app>

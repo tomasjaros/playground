@@ -15,6 +15,8 @@ import cz.jaros.playground.jee.jca.toupper.rar.spi.ToUpperManagedConnectionFacto
 public class ToUpperConnectionFactoryImpl extends BaseConnectionFactoryImpl<ToUpperManagedConnectionFactory>
         implements ToUpperConnectionFactory {
 
+    private static final long serialVersionUID = 7073796382738388132L;
+
     public ToUpperConnectionFactoryImpl(
             ConnectionManager connectionManager,
             ToUpperManagedConnectionFactory managedConnectionFactory) {

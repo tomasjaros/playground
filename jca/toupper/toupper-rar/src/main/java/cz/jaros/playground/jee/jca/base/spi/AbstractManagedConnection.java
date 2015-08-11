@@ -33,15 +33,14 @@ public abstract class AbstractManagedConnection<T> implements ManagedConnection 
     private T connectionHandle;    // Application connection handle
 
 
-    protected abstract T doGetConnection(AbstractManagedConnection<T> managedConnection)
-            throws ResourceException;
+    protected abstract T doGetConnection() throws ResourceException;
     protected abstract ManagedConnectionMetaData createMetaData();
 
 
     @Override
     public T getConnection(Subject subject, ConnectionRequestInfo cxRequestInfo) throws ResourceException {
         logMethodCall("getConnection()");
-        connectionHandle = doGetConnection(this);
+        connectionHandle = doGetConnection();
         return connectionHandle;
     }
 

@@ -46,12 +46,12 @@ public class MainController {
     }
 
     @RequestMapping(value="input.html", method=RequestMethod.POST)
-    public String processInput(String input, Model model) {
+    public String processInput(String input, long timeout, Model model) {
         logger.info("Processing input {}.", input);
         ToUpperConnection connection = getConnectionFactory().getConnection();
         String output;
         try {
-            output = connection.send(input);
+            output = connection.send(input, timeout);
             model.addAttribute("result", output);
         } catch (ToUpperException e) {
             throw new IllegalStateException("Error occurred.", e);

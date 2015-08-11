@@ -22,9 +22,8 @@ public class ToUpperManagedConnection extends TcpBasedManagedConnection<ToUpperC
     }
 
     @Override
-    protected ToUpperConnectionImpl doCreateAppConnection(
-            TcpBasedManagedConnection<ToUpperConnectionImpl> managedConnection) {
-        return new ToUpperConnectionImpl((ToUpperManagedConnection) managedConnection);
+    protected ToUpperConnectionImpl doCreateAppConnection() {
+        return new ToUpperConnectionImpl(this);
     }
 
     @Override
@@ -52,14 +51,15 @@ public class ToUpperManagedConnection extends TcpBasedManagedConnection<ToUpperC
         };
     }
 
-    public String sendAndReceive(String data) throws ResourceException {
+    public String sendAndReceive(String data, long timeout) throws ResourceException {
         try {
             logger.info("Sending input...");
             writeString(data);
             logger.info("Reading output...");
-            String output = readString();
+            String output = readString(timeout);
             return output;
         } catch (IOException e) {
+            disconnect();
             throw new ResourceException("Error occurred while communicating with EIS.", e);
         }
     }

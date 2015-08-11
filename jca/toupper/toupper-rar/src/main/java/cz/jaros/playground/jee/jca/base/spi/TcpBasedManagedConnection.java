@@ -29,11 +29,10 @@ public abstract class TcpBasedManagedConnection<T> extends AbstractManagedConnec
         this.port = port;
     }
 
-    protected abstract T doCreateAppConnection(TcpBasedManagedConnection<T> managedConnection);
+    protected abstract T doCreateAppConnection();
 
     @Override
-    protected T doGetConnection(AbstractManagedConnection<T> managedConnection)
-            throws ResourceException {
+    protected T doGetConnection() throws ResourceException {
         if (socket == null || socket.isClosed()) {
             try {
                 connect();
@@ -41,7 +40,7 @@ public abstract class TcpBasedManagedConnection<T> extends AbstractManagedConnec
                 throw new ResourceException("Failed to establish new connection.", e);
             }
         }
-        return doCreateAppConnection(this);
+        return doCreateAppConnection();
     }
 
     private void connect() throws IOException {
@@ -53,6 +52,7 @@ public abstract class TcpBasedManagedConnection<T> extends AbstractManagedConnec
     }
 
     protected void disconnect() {
+        logger.info("Disconnecting...");
         try {
             socket.close();
             socket = null;
@@ -61,7 +61,8 @@ public abstract class TcpBasedManagedConnection<T> extends AbstractManagedConnec
         }
     }
 
-    public String readString() throws IOException {
+    public String readString(long timeout) throws IOException {
+        socket.setSoTimeout((int) timeout);
         String line = in.readLine();
         logger.info("IN  <- " + line);
         return line;

@@ -11,6 +11,7 @@
         <h1>Input Form</h1>
         <form method="POST">
             Text: <input type="text" name="input" /><br />
+            Timeout: <input type="text" name="timeout" /><br />
             <input type="submit" value="Odeslat" />
         </form>
 

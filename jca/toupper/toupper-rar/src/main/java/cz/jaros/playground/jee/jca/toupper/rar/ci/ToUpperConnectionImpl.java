@@ -16,9 +16,9 @@ public class ToUpperConnectionImpl implements ToUpperConnection {
     }
 
     @Override
-    public String send(String input) throws ToUpperException {
+    public String send(String input, long timeout) throws ToUpperException {
         try {
-            return managedConnection.sendAndReceive(input);
+            return managedConnection.sendAndReceive(input, timeout);
         } catch (ResourceException e) {
             throw new ToUpperException("Can not get response from ToUpper service.", e);
         }

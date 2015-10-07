@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import cz.jaros.playground.jee.jca.toupper.api.ToUpperConnection;
 import cz.jaros.playground.jee.jca.toupper.api.ToUpperConnectionFactory;
@@ -46,7 +47,7 @@ public class MainController {
     }
 
     @RequestMapping(value="input.html", method=RequestMethod.POST)
-    public String processInput(String input, long timeout, Model model) {
+    public String processInput(String input, @RequestParam(defaultValue="0") long timeout, Model model) {
         logger.info("Processing input {}.", input);
         ToUpperConnection connection = getConnectionFactory().getConnection();
         String output;

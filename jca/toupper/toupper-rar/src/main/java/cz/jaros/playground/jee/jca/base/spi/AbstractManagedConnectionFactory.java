@@ -99,7 +99,7 @@ public abstract class AbstractManagedConnectionFactory<T extends ManagedConnecti
     }
 
     private void logMethodCall(String msg) {
-        logger.info(msg);
+        logger.info("" + this + " -- " + msg);
     }
 
 }

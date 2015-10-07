@@ -41,9 +41,11 @@ public abstract class BaseConnectionFactoryImpl<T extends ManagedConnectionFacto
      * and factory of managed connections.
      */
     public Object getConnection() {
-        logger.info("getConnection()");
+        logger.info("" + this + "--> getConnection()");
         try {
-            return connectionManager.allocateConnection(managedConnectionFactory, null);
+            Object conn = connectionManager.allocateConnection(managedConnectionFactory, null);
+            logger.info("Created application connection handle: " + conn);
+            return conn;
         } catch (ResourceException e) {
             throw new IllegalStateException("Can not create new application connection handle.", e);
         }

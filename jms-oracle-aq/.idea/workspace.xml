@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="592bd3c6-3bc1-484e-9e78-748317b4ef94" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jms-oracle-aq" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jms-oracle-aq" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jms-oracle-aq" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XIYS5F2D2y5Oqo06yOC2oVznqd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdbc-oracle-oci" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.20096077" />
+    <property name="project.structure.side.proportion" value="0.29953918" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="/opt/oracle/ora-db-19c-client/lib" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="cz.jaros.playground.App" />
+      <module name="jms-oracle-aq.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.jaros.playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;cz.jaros.playground.AppTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jms-oracle-aq [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jms-oracle-aq [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Gradle.AppTest" />
+      <item itemvalue="Gradle.jms-oracle-aq [clean]" />
+      <item itemvalue="Gradle.jms-oracle-aq [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.jms-oracle-aq [build]" />
+        <item itemvalue="Gradle.jms-oracle-aq [clean]" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="592bd3c6-3bc1-484e-9e78-748317b4ef94" name="Default Changelist" comment="" />
+      <created>1580735072877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580735072877</updated>
+      <workItem from="1580735077015" duration="38649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3435" y="360" width="800" height="672" key="#Project_Structure" timestamp="1580832419753">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3435" y="360" width="800" height="672" key="#Project_Structure/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580832419753" />
+    <state x="2756" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580857883844">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2756" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580857883844" />
+    <state x="3204" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580835049497" />
+    <state x="3529" y="348" width="424" height="579" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580831461403">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3529" y="348" width="424" height="579" key="#com.intellij.ide.macro.MacrosDialog/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580831461403" />
+    <state x="3648" y="411" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1580812052811">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3648" y="411" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580812052811" />
+    <state x="3598" y="405" key="#xdebugger.evaluate" timestamp="1580836036625">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3598" y="405" key="#xdebugger.evaluate/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836036625" />
+    <state x="3483" y="405" width="515" height="465" key="EnvironmentVariablesDialog" timestamp="1580831432135">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3483" y="405" width="515" height="465" key="EnvironmentVariablesDialog/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580831432135" />
+    <state x="3511" y="440" width="711" height="691" key="FileChooserDialogImpl" timestamp="1580832561241">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3511" y="440" width="711" height="691" key="FileChooserDialogImpl/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580832561241" />
+    <state width="1878" height="395" key="GridCell.Tab.0.bottom" timestamp="1580858101586">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1878" height="395" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580858101586" />
+    <state width="2518" height="395" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836618934" />
+    <state width="1878" height="395" key="GridCell.Tab.0.center" timestamp="1580858101585">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1878" height="395" key="GridCell.Tab.0.center/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580858101585" />
+    <state width="2518" height="395" key="GridCell.Tab.0.center/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836618934" />
+    <state width="1878" height="395" key="GridCell.Tab.0.left" timestamp="1580858101585">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1878" height="395" key="GridCell.Tab.0.left/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580858101585" />
+    <state width="2518" height="395" key="GridCell.Tab.0.left/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836618934" />
+    <state width="1878" height="395" key="GridCell.Tab.0.right" timestamp="1580858101586">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1878" height="395" key="GridCell.Tab.0.right/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580858101586" />
+    <state width="2518" height="395" key="GridCell.Tab.0.right/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836618934" />
+    <state width="2518" height="485" key="GridCell.Tab.1.bottom" timestamp="1580836255888">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.bottom/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836255888" />
+    <state width="2518" height="485" key="GridCell.Tab.1.center" timestamp="1580836255887">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.center/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836255887" />
+    <state width="2518" height="485" key="GridCell.Tab.1.left" timestamp="1580836255887">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.left/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836255887" />
+    <state width="2518" height="485" key="GridCell.Tab.1.right" timestamp="1580836255888">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.right/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836255888" />
+    <state x="3373" y="357" width="924" height="679" key="Maven.ArtifactSearchDialog" timestamp="1580738076648">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3373" y="357" width="924" height="679" key="Maven.ArtifactSearchDialog/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580738076648" />
+    <state x="3569" y="435" width="558" height="524" key="StructurePopup" timestamp="1580835726561">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3569" y="435" width="558" height="524" key="StructurePopup/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580835726561" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1580736149204">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580736149203" />
+    <state width="1280" height="700" key="XDebugger.FullValuePopup" timestamp="1580829062224">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1280" height="700" key="XDebugger.FullValuePopup/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580829062224" />
+    <state x="3392" y="438" width="1215" height="805" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580828684737">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3392" y="438" width="1215" height="805" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580828684737" />
+    <state width="1021" height="631" key="javadoc.popup.new" timestamp="1580857957552">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1021" height="631" key="javadoc.popup.new/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580857957552" />
+    <state width="1021" height="631" key="javadoc.popup.new/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580835802694" />
+    <state x="3504" y="328" key="run.anything.popup" timestamp="1580836009016">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3504" y="328" key="run.anything.popup/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580836009016" />
+    <state x="2696" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1580856804737">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2696" y="193" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1440/0.0.2560.1040@2560.0.2560.1440" timestamp="1580856804737" />
+    <state x="3503" y="318" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1440/0.0.2560.1400@2560.0.2560.1440" timestamp="1580835681336" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../db/oracle/11gR2/aq-libs/aqapi.jar!/oracle/jms/AQjmsConsumer.class</url>
+          <line>581</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cz/jaros/playground/App.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

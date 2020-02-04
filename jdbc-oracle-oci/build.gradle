@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation files('/home/jaros/data/prg/db/oracle/11gR2/instant-client-lite/ojdbc6.jar')
+    // Navic musi byt v LD_LIBRARY_PATH cesta k Instance Client instalaci, napr.:
+    // LD_LIBRARY_PATH=/home/jaros/data/prg/db/oracle/11gR2/instant-client-lite
+}
+
+application {
+    mainClassName = 'cz.jaros.playground.App'
+}

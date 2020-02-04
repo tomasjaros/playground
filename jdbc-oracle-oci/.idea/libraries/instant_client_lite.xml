@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="instant-client-lite">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../db/oracle/11gR2/instant-client-lite" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../db/oracle/11gR2/instant-client-lite" />
+    </NATIVE>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../db/oracle/11gR2/instant-client-lite" recursive="false" />
+  </library>
+</component>

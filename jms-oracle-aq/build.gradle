@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+//    implementation 'com.oracle.ojdbc:ojdbc10:19.3.0.0'
+//    implementation 'com.oracle.ojdbc:xdb:19.3.0.0'
+//    implementation 'com.oracle.ojdbc:xmlparserv2:19.3.0.0'
+
+    implementation 'com.zaxxer:HikariCP:3.4.1'
+    implementation 'org.apache.commons:commons-dbcp2:2.7.0'
+
+    implementation 'jakarta.jms:jakarta.jms-api:2.0.3'
+    implementation 'jakarta.transaction:jakarta.transaction-api:1.3.3'
+
+    // Oracle 19c full client (/opt/oracle/ora-db-19c-client)
+    implementation files('/opt/oracle/ora-db-19c-client/jdbc/lib/ojdbc8.jar')
+    implementation files('/opt/oracle/ora-db-19c-client/jlib/jta.jar')
+    implementation files('/opt/oracle/ora-db-19c-client/lib/xmlparserv2.jar')
+    implementation files('/opt/oracle/ora-db-19c-client/rdbms/jlib/xdb.jar')
+    implementation files('/opt/oracle/ora-db-19c-client/rdbms/jlib/aqapi.jar')
+    implementation files('/opt/oracle/ora-db-19c-client/rdbms/jlib/jmscommon.jar')
+
+//    implementation 'org.springframework:spring-jms:5.2.2.RELEASE'
+
+//    implementation files('/opt/oracle/ora/-db-19c-client/rdbms/jlib/aqapi.jar')
+
+//    implementation files('/home/jaros/data/prg/db/oracle/11gR2/instant-client-lite/ojdbc6.jar')
+
+//    implementation files('/home/jaros/data/prg/libs/jdbc-drivers/oracle/11.2.0.4/ojdbc6.jar')
+//    implementation files('/home/jaros/data/prg/libs/jdbc-drivers/oracle/11.2.0.4/xdb6.jar')
+//    implementation files('/home/jaros/data/prg/db/oracle/11gR2/aq-libs/aqapi.jar')
+//    implementation files('/home/jaros/data/prg/db/oracle/11gR2/aq-libs/xmlparserv2.jar')
+
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/ojdbc8.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/aqapi.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/xdb.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/aqxml.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/xdb6.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/xdb_g.jar')
+//    implementation files('/home/jaros/work/projects/cupi/oracle-aq/xmlparserv2.jar')
+}
+
+application {
+    mainClassName = 'cz.jaros.playground.App'
+}
